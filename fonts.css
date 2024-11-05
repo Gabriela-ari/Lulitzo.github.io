@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Predeterminada";
+    src: url("fonts/Quicksand-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Predeterminada";
+    src: url("fonts/Quicksand-Bold.ttf") format("truetype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Predeterminada2";
+    src: url("fonts/Roboto-Black.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Predeterminada3" ;
+    src: url("fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Predeterminada4" ;
+    src: url(fonts/Roboto-Light.ttf) format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Predeterminada5";
+    src: url(fonts/ConcertOne-Regular.ttf) format("truetype");
+    font-weight: 200;
+}

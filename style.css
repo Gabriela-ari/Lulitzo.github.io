@@ -1,0 +1,1180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* aca se modificara todo lo referente al header*/
+header{
+    background-color: white;
+    height: 100px;
+    width: auto;
+}
+
+.menu-initial{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.menu-initial > .logo > img {
+    height: 60px;
+}
+
+.menu-initial > .logo {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+nav{
+    margin: 0px 0px 0px 30px;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    font-family: Predeterminada;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul > div{
+    margin: 0px 15px;
+}
+
+nav ul > .mini6  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #faf0eb;
+    margin: 0px;
+    padding: 5px 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+nav ul > .mini6 > .imguser{
+    height: 20px;
+}
+nav ul > .mini6 > .entrar{
+    padding-left: 5px;
+}
+
+nav ul > .mini6 > .entrar > li > a{
+    text-decoration: none;
+    color: black;
+}
+nav ul > .mini6 > .imguser > img{
+    height: 20px;
+}
+nav ul > div > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+/* aca se modificara las secciones del body*/
+
+/* section{
+margin: 0px 150px;
+} */
+
+.parte1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 80vh;
+    width: auto;
+    
+}
+
+.parte1 > .texto > .bienvenida > .bienvenido {
+    font-family:Predeterminada;
+    font-size: 60px;
+}
+.parte1 > .texto > .bienvenida > .sitio {
+    font-family: Predeterminada4;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+/* .texto */
+
+.parte1 > .texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 40;
+    left:200px
+}
+
+.parte1 > .texto > .descripcion > .minidesc {
+    font-family: Predeterminada;
+    font-weight: 400;
+    font-size: 30px;
+    font-size: 20px;
+}
+.parte1 > .texto >.descripcion > .minidesc2 {
+    font-family: Predeterminada;
+   
+    font-size: 30px;
+    font-size: 20px;
+}
+.parte1 > .texto > .descripcion > .minidesc3 {
+    font-family: Predeterminada;
+    font-size: 30px;
+    font-size: 20px;
+}
+.parte1 > .texto > .entrar2 > a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    background-color: #faf0eb;
+    margin: 0px;
+    padding: 5px 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+font-family: Predeterminada;}
+
+.app{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    background-color: #faf0eb;
+    margin: 0px;
+    padding: 5px 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+font-family: Predeterminada;
+height: 50px;
+}
+
+
+.lulii55{
+    font-size: 16px;
+}
+.parte1> .ul {
+list-style: none;
+}
+.parte1 > .img-inicio > img {
+    height: 400px;
+    width: 500px;
+}
+
+.parte1 > .img-inicio {
+    position: absolute;
+    top: 40;
+    right: 150px;
+}
+/*Se modificara la seccion 2*/
+
+.parte2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+    width: auto;
+    background-color: #ffcc33;
+    margin: 0%;
+}
+.parte2 > .descripcion2 .texto2  {
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+    gap: 0px;
+    left:200px;
+}
+
+    .parte2 > .descripcion2 > .texto2 > .nos1 {
+        font-family:Predeterminada3;
+        
+        font-size: 40px;
+    }
+    .parte2 > .descripcion2 > .texto2 > .nos2 {
+        font-family: Predeterminada3;
+        font-weight: 200;
+        font-size: 40px;
+    }
+    
+.texto3{
+    display: flex;
+    flex-direction: column;
+    top: 40;
+    right: 200px;
+}
+
+.texto3 > h2 , .texto3 > h2 b{
+    font-size: 20px;
+}
+
+.texto3 > h2{
+    font-weight: 400;
+    font-family: Predeterminada;
+}
+
+.texto3 > h2 b{
+    font-family: Predeterminada;
+}
+
+/*se modificara la seccion 3*/
+.parte3{
+    width:  auto;
+    min-height: 800px;
+    max-height: 1000px;
+    padding: 0px 200px;
+}
+
+
+.parte3 > .ofrecer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 20;
+    margin-top: 5%;
+    position: relative;
+    left: -40px;
+}
+    
+.parte3 > .ofrecer > .texto8 > b { 
+    font-family: Predeterminada3;
+    font-size: 25px;
+   
+}
+
+.parte3 > .ofrecer >.texto9 > .cosa , .parte3 > .ofrecer >.texto9 > .cosa1 , .parte3 > .ofrecer >.texto9 > .cosa2{
+    font-family: Predeterminada;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.contenedorrr{
+display: flex;
+align-items: center;
+justify-content: center;
+gap:75px;
+}  
+
+.tarjeta{
+    width: 250px;
+    height: 300px;
+}
+.tarjeta img{
+    width: 200px;
+    margin-top: 60px;
+}
+.titulost{
+    font-family: Predeterminada5;
+  
+    font-size: 18px;
+    margin-top: 20px;
+}
+.titulost2{
+    font-family: Predeterminada;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.parte4{
+
+    background-color: #faf0eb;
+    margin: 0%;
+
+    width:  auto;
+    min-height: 500px;
+    max-height: 800px;
+    padding: 0px 200px;
+}
+.icono{
+    font-family: Predeterminada3;
+    font-size: 25px;
+}    
+.iconos2{
+    font-family: predeterminada;
+    font-weight: 400px;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 10px;
+
+}    
+
+.parte4 > .ofrecer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 20;
+    margin-top: 5%;
+    margin-bottom: 65px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.contenedor24{
+    display: flex;  
+    align-items: column;
+    justify-content: center;
+    gap:25px;
+    flex-wrap: wrap;
+    
+}
+.personajes{
+    display: flex;
+    width: 80px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.personajes img{
+    width: 80px;
+    margin-top: 0px;
+}
+
+.parte5{
+    background-color: white;
+    width: auto;
+    height: 100vh;
+    margin: 0% 200px;
+}
+
+
+.videost2{
+    font-family: predeterminada3;
+    font-size: 25px;
+    margin-top: 5%;
+    position: relative;
+    left: -40px;
+}
+.videostt{
+    font-family: predeterminada;
+    font-weight: 400px;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 10px;
+    position: relative;
+    left: -40px;
+}
+.videost3{
+    font-family: predeterminada3;
+    font-size: 17px;
+    margin-top: 15px;
+    
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 200px;
+}
+
+.podcast{
+    width: auto;
+    height: 70vh;
+    margin: 0% 200px;
+    }
+    .pot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20%;
+    
+    }
+    
+    .potext{
+        font-family: predeterminada;
+        font-size: 18px;
+        font-weight: 400px;
+        
+    }
+
+    .poti{
+        text-decoration: none;
+    color: black;
+    list-style: none;
+    background-color: #ffcc33;
+    margin: 0px;
+    padding: 5px 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    font-family: Predeterminada;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+
+    }
+    .negrita{
+        font-family: predeterminada;
+        font-size: 18px;
+        font-weight: 400px;
+    }
+
+.parte6{
+    background-color:#faf0eb ;
+    max-height: 100vh;
+    max-width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: column;
+    
+    
+}
+
+
+.buss{
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.expresaa{
+    font-family: predeterminada;
+    font-weight: 400px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.expresatee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+   margin-top: 100px;
+    
+}
+
+.entrar23 > a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    background-color: #ffcc33;
+    margin: 0px;
+    padding: 5px 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    font-family: Predeterminada;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contactos{
+    
+    width: auto;
+    height: 60vh;
+    background-color: #ffcc33;
+    position: relative;
+    margin: 0%;
+
+}
+.arriba{
+    
+    display: flex;
+    
+   align-items: center;
+   padding: 30px 200px;
+   gap: 20px;
+   
+}
+.lulii{
+    font-family: predeterminada;
+    font-size: 20px;
+}
+.luli{
+    font-family: predeterminada;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.completo{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 200px 20px;
+    
+}
+
+.atencion2{
+    margin-top: 30px;
+    
+}
+.lista a{
+    list-style:none;
+    text-decoration: none;
+    color: black;
+    font-family: predeterminada;
+    font-size: 15px;
+}
+.app{
+    margin-top: 25px;
+}
+
+.final{
+    width: auto;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.lulii2{
+    color: white;
+    font-family: predeterminada;
+    font-size: 15px;
+}
+.luli3 a{
+    color: black;
+    font-family: predeterminada;
+    font-size: 15px;
+}
+
+
+/*se editara lo relacionado con el formulario de entrar*/
+
+.hora{
+    background:url(images/fondo1.png) no-repeat ;
+
+    background-size:cover;
+    background-position: center;
+    
+    width: auto;
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+
+
+.luliz{
+    font-size: 60px;
+    font-family: predeterminada;
+    
+}
+
+ 
+.textf{
+    border-radius: 5%;
+    background-color:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30vw;
+    height: 80vh;
+    margin-left: 120px;
+    
+    
+}
+.textf .imput-box{
+    position: relative;
+    width: 70%;
+    height: 50px;
+    margin: 30px 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imput-box input{
+   
+    
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255, .2);
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    padding:15px 30px  15px 15px;
+}
+
+.imput-box input::placeholder{
+    color: white;
+}
+.imput-box i{
+    position:absolute;
+    right: 20px;
+    color: white;
+    font-size: 15px;
+    
+}
+.luliii{
+    font-family: predeterminada;
+    font-size: 25px;
+    color: white;
+    
+}
+
+
+.textf .recordar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
+ .recordar a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+ }
+ .recordar {
+    color: white;
+    font-family: predeterminada;
+    font-size: 15px;
+ }
+
+ .textf .btnn{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 13px;
+    color: #333;
+    margin-top: 20px;
+
+ }
+ .registrarlink p{
+    font-family: predeterminada;
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+
+ }
+ .registrarlink a{
+    font-family: predeterminada;
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+
+ } 
+
+
+ /*se editara la section para registrarse a la pagina*/
+
+ .hora2{
+    background: url(images/fondo\ 2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+ }
+
+ .registrar{
+
+    
+    border-radius: 5%;
+    background-color:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30vw;
+    height: 90vh;
+    margin-left: 80px;
+    
+    
+    
+ }
+ .registrar p{
+    font-family: predeterminada;
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+
+ }
+ .registrar a{
+    font-family: predeterminada;
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+
+ } 
+ .lulp{
+    font-family: predeterminada;
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+ }
+ .form2{
+    margin-top: 40px;
+
+ }
+
+ .btn2{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    
+    color:blueviolet;
+    margin-top: 20px;
+ }
+
+ 
+
+ 
+
+.imput-box2{
+    position: relative;
+    width: 80%;
+    height: 40px;
+    margin: 20px 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.imput-box2 input{
+   
+    
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255, .2);
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    padding:15px 30px  15px 15px;
+}
+
+.imput-box2 input::placeholder{
+    color: white;}
+
+
+
+/*se modificara el blog*/
+
+.zon{
+max-height: 200vh;
+max-width: 100vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 20px 40px 0 40px;
+}
+
+#sugerencias{
+    margin-bottom: 23%;
+}
+    
+
+.blog{
+    
+    width: auto;
+    height: 100vh;}
+
+    .ver{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 35%;
+    
+    width: auto;
+    height: 20vh;
+    margin:20px 100px;
+    
+    
+}
+.ver .interesa{
+    
+    position: relative;
+    width: 70%;
+    height: 50px;
+    margin: 20px 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.interesa input{
+   
+    
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 3px solid rgba(0,0,0, .3);
+    border-radius: 40px;
+    font-size: 15px;
+    
+    padding:15px 90px  15px 90px;
+}
+
+.interesa input::placeholder{
+    color: rgba(0,0,0, .5);
+}
+.interesa i{
+    position:absolute;
+    right: 30px;
+    color: rgba(0,0,0, .5);
+    font-size: 15px;
+    
+}
+
+.hola{
+    width: auto;
+    height: 50px;
+    margin: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.sugerencias{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 23px;    
+    
+    
+}
+.publicacion{
+    
+    width: 80vh;
+    
+}
+.publicacionn{
+    width: 200px;
+    height: 54px;
+    background-color: #ffcc33;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .5);
+    cursor: pointer;
+    font-family: predeterminada;
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    
+}
+
+.blog2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.sugee{
+    border-radius: 5%;
+    background-color:transparent;
+    border: 3px solid rgba(0,0,0, .3);
+    backdrop-filter: blur(20px);
+    width: 380px;
+    height: 70vh;
+    padding: 20px;
+}
+.suge{
+    font-family: predeterminada;
+    text-align: center;
+}
+.de{
+    font-family: predeterminada;
+    width: 100px;
+    text-align: center;
+}
+
+.btnn{
+    width: 50px;
+    height: auto;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #ffcc33;
+}
+
+
+.ambos{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.calendar{
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 30px;
+    
+
+    padding: 10px;
+    background: #fff1ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.monthYear{
+    text-align: center;
+    font-weight: 600;
+    width: 150px;
+    font-size: 20px;
+    font-family: predeterminada;
+}
+.header button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: #00ccff;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.day{
+    text-align: center;
+    padding: 5px;
+    color: #999FA6;
+    
+    font-family: predeterminada;
+}
+
+.dates{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+    font-family: predeterminada;
+}
+
+.date:hover, .date.active{
+    background: #ff5869;
+    color: #ffff;
+}
+
+.date.inactive { 
+    color: #d2d2d2;
+}
+
+.date.inactive:hover {
+    color: #fff;
+
+}
+.img{
+    border-radius: 50%;
+    
+    
+    
+    
+}
+.historia{
+    margin:0 0 0 30px;
+    
+    
+    }
+
+    .histori2{
+        border-radius: 25px;
+        background-color:transparent;
+        border: 3px solid rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(20px);
+        display: flex;
+        margin-top: 20px;
+        width: 800px;
+        height: 250px;
+        gap: 70px;
+        padding: 25px 10px 3px 30px  
+    }
+    .histori{
+        border-radius: 25px;
+        background-color:transparent;
+        border: 3px solid rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(20px);
+        display: flex;
+        margin-top: 20px;
+        width: 800px;
+        height: 130px;
+        gap: 70px;
+        padding: 25px 10px 10px 30px    
+        
+    }
+    
+    .histori i{
+        font-size: 70px;
+    }
+    
+    .lul{
+        font-family: predeterminada;
+        font-size: 25px;
+    }
+    
+    .lull{
+        font-family: predeterminada;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .butt{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 10px;
+        
+      
+    }
+    .info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .butti{
+        border-radius: 20px;
+        border-color:transparent;
+        width: 140px;
+        height: 40px;
+        background-color: #ff5869;
+        
+        }
+    .butti h1{
+        font-family: predeterminada;
+        font-size: 15px;
+        text-align: center;
+    }     
+    .butn{
+        border-radius: 20px;
+        border-color:transparent;
+        width: 130px;
+        height: 40px;
+        background-color: #ff5869;
+        text-align: center;
+        padding: 1px;
+    } 
+
+    .but{
+        border-radius: 20px;
+        border-color:transparent;
+        width: 60px;
+        height: 40px;
+        background-color: #ff5869;
+        text-align: center;
+        margin-left:20px;}
+    
+    .but a{
+        color: white;
+        font-family: predeterminada;
+        
+    }
+    .butt i{
+        color: #ff5869;
+        display: flex;
+        align-items: center;
+        
+        font-size: 30px;
+        
+        height: 40px;
+        
+    }
+    .sticky-button{
+        width: 100px;
+        height: 100px;
+        background-color: #5774c4;
+        border-radius: 25px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        border-style: solid;
+        border-width: 2px;
+        padding: 0px 10px;
+        position: fixed;
+        border-color: black;
+        right: 0;
+        bottom: 0;
+        margin: 0px 10px 10px 0px;
+        box-shadow: 0px 0px 10px;
+        transition: .3s all ease;
+    }
+    .sticky-button:hover{
+        background-color: white;
+        transition: .3s all ease;
+    
+    }
+    
+    .sticky-button > p{
+        font-family: Predeterminada;
+        color: white;
+        transition: .3s all ease;
+    }
+    .sticky-button > p:hover{
+        color: #5774c4;
+        transition: .3s all ease;
+    }
